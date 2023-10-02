@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## **Project** Hewsletter
 
-## Getting Started
+**1. Brief Introduction:**
 
-First, run the development server:
+ChatGPT's knowledge is rooted in data and information available up until September 2021. While it serves as a potent tool for managing various text-related information, it cannot overlook the gap between 2021 and the present, during which a substantial amount of new information has emerged and proliferated. Fortunately, Metaphor can provide ChatGPT with real-time updates, thereby transforming it into a dynamic and up-to-date information resource, ensuring it remains current.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+With access to the latest news, ChatGPT can efficiently summarize and extract essential information, significantly reducing the time required for information retrieval. This has led me to conceive the concept of "Hewsletter," a platform that leverages Metaphor to acquire the most recent news and generate newsletters tailored to the user's specific interests.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. How you Built it**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Given our tight deadline of 2-3 hours to complete this project while ensuring its quality for our resume, it is imperative that we leverage serverless services, libraries, and even open-source projects to efficiently meet our objectives within this constrained timeframe. Consequently, although I invested several hours in coding, a significant portion of my time was devoted to selecting the most suitable technologies to accomplish our goals.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Ultimately, my decision was to employ Firebase for implementing authorization and authentication functionalities. Simultaneously, I opted for Next.js to handle routing, and I drew upon open-source projects with which I have prior experience and am familiar with their codebase. Through these strategic choices, I was able to successfully construct a project of sufficient quality.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## How to run the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository
+2. Add API keys to `.env.local` file
+3. Run `yarn install` to install the dependencies
+4. Run `yarn dev` to start the development server
+5. Navigate to `localhost:3000` to view the project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## [More Explain](https://hui-hwoo.notion.site/Hewsletter-a64cff612b9a41b2bb1b313170d4ecb8?pvs=4)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -57,7 +57,7 @@ export class ChatGPTApi implements LLMApi {
         headers: {
           "Content-Type": "application/json",
           "x-requested-with": "XMLHttpRequest",
-          Authorization: `Bearer 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`,
+          Authorization: `Bearer ${process.env.OPENAI_API_KEY}}`,
         },
       };
 
