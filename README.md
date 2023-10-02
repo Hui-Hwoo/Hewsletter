@@ -24,4 +24,21 @@ Ultimately, my decision was to employ Firebase for implementing authorization an
 ## [More Explain](https://hui-hwoo.notion.site/Hewsletter-a64cff612b9a41b2bb1b313170d4ecb8?pvs=4)
 
 
+## Sreenshots & Video
+
+
+
+<img src="https://raw.githubusercontent.com/Hui-Hwoo/Hewsletter/main/data/homepage.png" controls="controls" style="width: 800px;">
+</img>
+
+<video src="https://raw.githubusercontent.com/Hui-Hwoo/Hewsletter/main/data/presentation.mov" controls="controls" style="width: 800px;">
+</video>
+
+<div style="display: flex; flex-direction: row;"><img src="https://raw.githubusercontent.com/Hui-Hwoo/Hewsletter/main/data/signup.png" controls="controls" style="width: 400px;">
+</img>
+
+<img src="https://raw.githubusercontent.com/Hui-Hwoo/Hewsletter/main/data/signin.png" controls="controls" style="width: 400px;">
+</img></div>
+
+
 
